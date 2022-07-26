@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.emmmua.mapper.userMapper">
+    <insert id="register">
+        insert into user(id, url,username, password) values(null, #{user.url},#{user.username}, #{user.password});
+    </insert>
+    
+    <select id="login" resultType="com.emmmua.pojo.User">
+        select * from user where username = #{user.username} and password = #{user.password};
+    </select>
+    
+    <select id="SelectByName" resultType="com.emmmua.pojo.User">
+        select * from user where username = #{username};
+    </select>
+</mapper>

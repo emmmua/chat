@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chat_jar</output-path>
+    <root id="archive" name="Chat.jar">
+      <element id="module-output" name="Chat" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/mybatis/mybatis/3.5.10/mybatis-3.5.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-controls/15/javafx-controls-15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-fxml/15/javafx-fxml-15-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-base/15/javafx-base-15-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-controls/15/javafx-controls-15-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-graphics/15/javafx-graphics-15-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/item_ile/apache-maven-3.6.3/localRepository/org/openjfx/javafx-base/15/javafx-base-15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

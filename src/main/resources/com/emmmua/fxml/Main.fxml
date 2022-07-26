@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #f5f5f5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.emmmua.controller.MainController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="80.0" style="-fx-background-color: #2e2e2e;">
+         <children>
+            <ImageView fx:id="avatar" fitHeight="50.0" fitWidth="50.0" layoutX="16.0" layoutY="33.0" onMouseClicked="#entered" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/com/emmmua/images/news.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/com/emmmua/images/user.png" />
+               </image>
+            </ImageView>
+            
+            
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="480.0" onMouseClicked="#inMoments" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/com/emmmua/images/Moments.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="80.0" prefHeight="800.0" prefWidth="350.0" style="-fx-background-color: #e4e4e6;">
+         <children>
+            <Pane prefHeight="64.0" prefWidth="350.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <TextField fx:id="searchBox" layoutX="39.0" layoutY="17.0" prefHeight="30.0" prefWidth="224.0" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="281.0" layoutY="22.0" onMouseClicked="#searchBtn" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="/com/emmmua/images/search.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <VBox layoutY="66.0" prefHeight="735.0" prefWidth="350.0">
+               <children>
+                  <ListView fx:id="InformationList" prefHeight="735.0" prefWidth="350.0" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Pane layoutX="431.0" layoutY="1.0" prefHeight="799.0" prefWidth="771.0" style="-fx-background-image: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="102.0" layoutX="335.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/com/emmmua/images/MainBackground.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>

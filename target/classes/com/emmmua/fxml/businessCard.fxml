@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="330.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.emmmua.controller.MainController">
+   <children>
+      <ImageView fx:id="imgCard" fitHeight="100.0" fitWidth="100.0" layoutX="39.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="username" layoutX="175.0" layoutY="27.0" prefHeight="63.0" prefWidth="148.0" text="用户名" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutBtn" layoutX="97.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="23.0" prefWidth="137.0" text="登出" textAlignment="CENTER" />
+      <Button fx:id="reAvatarBtn" layoutX="175.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#reAvatar" text="修改头像" />
+   </children>
+</Pane>

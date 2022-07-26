@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Chat.jnlp">
+  <information>
+    <title>Chat</title>
+    <vendor>Unknown</vendor>
+    <description>Chat</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Chat.jar" size="20900" download="eager" />
+    <jar href="javafx-base-15-win.jar" size="745515" download="eager" />
+    <jar href="javafx-base-15.jar" size="302" download="eager" />
+    <jar href="javafx-controls-15-win.jar" size="2531028" download="eager" />
+    <jar href="javafx-controls-15.jar" size="306" download="eager" />
+    <jar href="javafx-fxml-15-win.jar" size="128790" download="eager" />
+    <jar href="javafx-fxml-15.jar" size="302" download="eager" />
+    <jar href="javafx-graphics-15-win.jar" size="5898566" download="eager" />
+    <jar href="javafx-graphics-15.jar" size="306" download="eager" />
+    <jar href="logback-classic-1.2.3.jar" size="290339" download="eager" />
+    <jar href="logback-core-1.2.3.jar" size="471901" download="eager" />
+    <jar href="mybatis-3.5.10.jar" size="1750950" download="eager" />
+    <jar href="mysql-connector-java-8.0.29.jar" size="2519547" download="eager" />
+    <jar href="protobuf-java-3.19.4.jar" size="1681869" download="eager" />
+    <jar href="slf4j-api-1.7.20.jar" size="40744" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.emmmua.Main"  name="Chat" />
+  <update check="background"/>
+</jnlp>
