@@ -1,36 +1,20 @@
-# Chat模拟微信
+# Chat simulates WeChat
 
-#### Description
-使用JavaFX，模拟微信，半成品，基本图形功能实现。maven，mybatis，spring，springmvc
+# # # # Introduction
 
-#### Software Architecture
+Using JavaFX, simulating WeChat, semi-finished products and basic graphic functions. maven，mybatis，spring，springmvc
+
+# # # # Software architecture
+
 Software architecture description
 
-#### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+# # # # Installation Tutorial
 
-#### Instructions
+1. import maven file
+2. Import the database file
+3. Direct operation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+# # # # Participate in the contribution
 
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Fivk Blog: [https://blog.fivk.cn/] (https://blog.fivk.cn/)
